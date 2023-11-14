@@ -23,5 +23,12 @@ Features:
    - flutter pub get
 4) Run the app
    - flutter run
+
+## Dependencies
+ - cloud_firestore
+ - firebase_core
+ - shared_preferences
+ - smooth_page_indicator
+   
 ## Usage
 After launching the app, you will be prompted to sign in. Once signed in, you can start creating tasks. Each task can be updated or deleted as needed.
