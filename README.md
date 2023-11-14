@@ -2,15 +2,26 @@
 
 A new Flutter project.
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
+This is a simple task management app built with Flutter and Firebase. It allows users to create, update, and delete tasks. The tasks are stored in a Firebase database, making them accessible from any device
 
-A few resources to get you started if this is your first Flutter project:
+Features:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- User authentication
+- Create, update, and delete tasks
+- Real-time updates from Firebase
+- Clean and simple UI
+- change profile picture
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+1) Clone the repository
+   - git clone https://github.com/sreerag5375/Flutterverse_StackUp.git
+2) Navigate to the project directory
+   - cd Flutterverse_StackUp
+3) Get Flutter packages
+   - flutter pub get
+4) Run the app
+   - flutter run
+## Usage
+After launching the app, you will be prompted to sign in. Once signed in, you can start creating tasks. Each task can be updated or deleted as needed.
